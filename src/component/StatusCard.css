@@ -1,0 +1,15 @@
+.status-card {
+    display: grid;
+    grid-gap: 20px;
+    position: fixed;
+    top: 13px;
+    right: 30px;
+    background-color: #ffffff; /* White background for the card */
+    border: 1px solid #ccc; /* Border color for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside the card */
+    padding-right: 50px;
+    z-index: 5; /* Ensure the card is above other elements */
+  }
+  

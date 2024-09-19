@@ -1,0 +1,52 @@
+.service-status-card {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+  font-size: 14px; /* Set font size */
+}
+
+.service-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.btn-close-card {
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.service-card-body {
+  margin-top: 10px;
+}
+
+.service-info {
+  margin-bottom: 5px;
+}
+
+.status-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.status-indicator.active {
+  background-color: green; /* วงกลมสีเขียวสำหรับ Active and Running */
+}
+
+.status-indicator.inactive {
+  background-color: red; /* วงกลมสีแดงสำหรับ Not Active */
+}
